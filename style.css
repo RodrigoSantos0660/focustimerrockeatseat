@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+ font-size: 62.5%;
+}
+.boxprincipal{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 19.2rem;
+padding-top: 20rem;
+}
+.displaytimer{
+display: flex;
+width: 32.1rem;
+height: 11.7rem;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 12.2rem;
+line-height: 14.8rem;
+color: #323238;
+margin-bottom: 5rem;
+
+}
+.buttonstimer{
+  width: 32.1rem;
+  display: flex;
+  height: 4.8rem;
+  gap: 4rem;
+}
+
+.cardsons{
+  width: 30.8rem;
+  height: 35.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  color: #323238;
+}
+.btnsons{
+  border-radius: 24px;
+  width: 13rem;
+  height: 15.2rem;
+  background: #E1E1E6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.btnsons audio{position: absolute;
+  width: 9.5rem;
+  height: 8rem;
+  opacity: 0.5;
+ 
+}
+
+.chuva{
+  background-color: #02799D;
+}
+.cardsons img:hover{
+  cursor: pointer;
+  transform: scale(1,1.3);
+  transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+  
+
+}
+.buttonstimer img:hover{
+  cursor: pointer;
+  transform: scale(1,1.3);
+  transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.btnsons:hover{
+  cursor: pointer;
+  transform: scale(1,1.1);
+  transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+  background-color: #9cafb8;
+}
+.chuva:hover{
+  background-color: #537888;
+
+}
+
+@media(max-width:900px){
+  .boxprincipal{
+  flex-direction: column;
+  }
+}
